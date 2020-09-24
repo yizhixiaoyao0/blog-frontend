@@ -73,7 +73,7 @@ query($id: ID!) {
                     })
                     return
                 }
-                this.$router.push('/user/blog/edit/' + this.blog.id)
+                // this.$router.push('/user/blog/edit/' + this.blog.id)
             },
             more() {
                 this.$router.push('/user/blog')
