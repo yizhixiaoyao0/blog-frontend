@@ -143,7 +143,6 @@ query($page: Int) {
 <script>
 import { mapGetters } from "vuex";
 import GistApi from "@/api/gist";
-import dayjs from "dayjs";
 import { Pager } from "gridsome";
 export default {
   name: "BlogPage",
@@ -151,7 +150,6 @@ export default {
     return {
       loading: false,
       searchKey: "",
-      dayjs,
     };
   },
   components: {
