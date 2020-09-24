@@ -12,8 +12,12 @@
     "@gridsome/source-strapi": "^0.2.0",
     "@gridsome/transformer-remark": "^0.6.2",
     "axios": "^0.20.0",
-    "bootstrap": "^4.5.2",
+    "element-ui": "^2.13.2",
     "gridsome": "^0.7.0",
-    "markdown-it": "^11.0.1"
+    "js-base64": "^3.5.2",
+    "js-cookie": "^2.2.1",
+    "markdown-it": "^11.0.1",
+    "mavon-editor": "^2.9.0",
+    "vuex": "^3.5.1"
   }
 }

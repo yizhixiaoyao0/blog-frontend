@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <header class="masthead" style="background-image: url('/img/about-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 </template>
 
 <script>
@@ -47,6 +47,9 @@ export default {
   name: 'AboutPage',
   metaInfo: {
     title: "About us",
+    meta: [
+      { name: 'author', content: 'John Doe' }
+    ]
   },
 };
 </script>
